@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80)
+    no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 13%;
+}
+
+.container {
+  padding: 12px;
+  width: 700px;
+  height: 500px;
+  background-color: rgb(248, 244, 244);
+  border-radius: 16px;
+  opacity: 0.9;
+}
+
+.container > h1 {
+  margin-top: 7%;
+  text-align: center;
+  text-decoration: underline wavy rgb(250, 213, 213) 3px;
+}
+
+.container > .btn {
+  user-select: none;
+  font-size: 19px;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+  cursor: pointer;
+  margin: 16% 0 15% 42%;
+  padding: 16px 25px;
+  border-radius: 13px;
+}
+
+.container > #timesee {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.foot {
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  margin-top: 120px;
+}
+
+.foot p {
+  padding: 0;
+  font-size: 1.4em;
+  margin: 20px;
+}
